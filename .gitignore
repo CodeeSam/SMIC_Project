@@ -1,0 +1,39 @@
+# Python caches
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pycache
+
+# Virtual environment
+venv/
+env/
+ENV/
+*.env
+*.venv
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS system files
+.DS_Store
+Thumbs.db
+
+# Optional: Ignore large raw data files if they are too big
+# Keep only processed CSVs needed for dashboard
+data/raw_data.csv
+data/train_sentiment.csv
+data/test_sentiment.csv
+# Processed CSVs needed by dashboard should remain in repo
+!data/pred_test_sentiment.csv
+!data/timeseries_data.csv
+!data/forecast_results.csv
